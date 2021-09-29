@@ -1,7 +1,7 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
+  "description": "introduction to node",
   "main": "Node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/rafaelcabrera/Node.js/issues"
   },
-  "homepage": "https://github.com/rafaelcabrera/Node.js#readme"
+  "homepage": "https://github.com/rafaelcabrera/Node.js#readme",
+  "keywords": []
 }
