@@ -4,13 +4,13 @@ const bcrypt = require('bcrypt');
 
 const password = '1234Segura!';
 
-bcrypt.hash(password,5,(err,hash)=>{
+bcrypt.hash(password, 5, (err, hash) => {
     console.log(hash);
-    bcrypt.compare(password,hash,(err,res)=>{
+    bcrypt.compare(password, hash, (err, res) => {
         //console.log(err);
         console.log(res);
     });
-})//pass ronda y funcion
+}) //pass ronda y funcion
 
 //tarea que lo guarde en archivo.
 //en vez de callback se puede usar promesa
